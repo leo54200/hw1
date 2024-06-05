@@ -1,0 +1,87 @@
+#sign_in_form {
+  width: 80%;
+  margin: auto;
+}
+
+.x {
+  margin-left: 12px;
+  width: 24px;
+  height: 26px;
+  margin-bottom: -15px;
+}
+
+.tf {
+  height: 500px;
+  width: 370px;
+  border-radius: 50px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  border: solid 3px;
+  padding: 25px 30px;
+  color: #000000;
+  top: 50%;
+  margin-top: -250px;
+  left: 50%;
+  margin-left: -185px;
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+.th {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  border: outset 3px;
+  outline: none;
+  border-radius: 12px;
+  font-weight: none;
+  margin: 12px auto;
+}
+.tl {
+  font-size: 18px;
+}
+.tb {
+  align-items: center;
+  color: white;
+  width: 90%;
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+  border: outset 3px;
+  background-color: rgb(22, 62, 196);
+  border-radius: 14px;
+  margin-left: 5%;
+  margin-top: 5y0px;
+}
+.tb:hover {
+  background-color: rgb(22, 62, 196);
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.ta {
+  color: rgb(0, 0, 0);
+}
+.ta:hover {
+  color: rgb(9, 9, 134);
+}
+.tp {
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.error {
+  background: #f2dede;
+  color: #a94442;
+  text-align: center;
+  width: 100%;
+  border-radius: 12px;
+  font-size: 18px;
+}
